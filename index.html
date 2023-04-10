@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to The Lochquarry Activitie Center"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d8f9e21da0.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Home page</title>
+  </head>
+  <body>
+    <!-- --------------Header menu---------------------------->
+    <header>
+      <div class="container">
+        <nav
+          class="navbar navbar-expand-lg fixed-top"
+          style="background-color: #3e2313"
+        >
+          <div class="container-fluid">
+            <a class="navbar-brand" href="/"
+              ><img
+                class="logo"
+                src="image/lochquarry-logo.png"
+                alt="Lochquarry logo"
+                title="Homepage"
+            /></a>
+            <button
+              class="navbar-toggler navbar-dark"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li
+                  class="navbar nav-item justify-content-end me-4"
+                  id="small-menu"
+                >
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li
+                  class="navbar nav-item justify-content-end me-4"
+                  id="small-menu"
+                >
+                  <a class="nav-link" href="activities.html">Activities</a>
+                </li>
+                <li
+                  class="navbar nav-item justify-content-end me-4"
+                  id="small-menu"
+                >
+                  <a class="nav-link" href="reviews.html">Reviews</a>
+                </li>
+                <li
+                  class="navbar nav-item justify-content-end me-4"
+                  id="small-menu"
+                >
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li
+                  class="navbar nav-item justify-content-end me-4"
+                  id="small-menu"
+                >
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- --------------Main content--------------------------- -->
+
+    <div class="banner">
+      <div>
+        <img
+          src="image/banner/ben-collins-O6rQHKk_nns-unsplash.jpg"
+          class="carousel images"
+        />
+        <img
+          src="image/banner/gary-ellis-5vF16lNZ-gI-unsplash.jpg"
+          class="carousel images"
+        />
+        <img
+          src="image/banner/gary-ellis-kkKY4AG7JlI-unsplash.jpg"
+          class="carousel images"
+        />
+      </div>
+    </div>
+
+    <div class="slide-banner">
+      <h1>The Lochquarry</h1>
+    </div>
+
+    <div class="row home">
+      <div class="col">
+        <p class="welcome">
+          Welcome to The Lochquarry Activitie Center! Integer ut maximus erat.
+          Curabitur convallis suscipit enim sagittis maximus. Class aptent
+          taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+          himenaeos. Fusce maximus et justo ut dapibus. Nam laoreet, diam luctus
+          imperdiet consectetur, libero nisi ultrices neque, in consequat neque
+          sem sollicitudin ante.
+        </p>
+      </div>
+      <div class="col" id="imageresponsive">
+        <img
+          src="/image/pexels-cottonbro-studio-9292795.jpg"
+          class="picture"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <hr />
+    <h2>Our Activities</h2>
+
+    <div class="overflow-hidden">
+      <div class="row">
+        <div class="col frame">
+          <a href="water.html">
+            <img
+              src="image/water/andre-morales-kalamar-zq2apZBoT8I-unsplash.jpg"
+              class="act-preview"
+            />
+            <h4>Water Based</h4>
+            <p class="act-description">
+              Duis aute irure dolor in reprehen derit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatu
+            </p>
+          </a>
+
+          <a
+            class="btn btn-outline-light btn-sm d-grid col-4 mx-auto"
+            id="contacts-btn"
+            href="water.html"
+            role="button"
+            style="background-color: #3e2313"
+            >Find out more...</a
+          >
+        </div>
+        <div class="col frame">
+          <a href="land.html"
+            ><img
+              src="image/land/jametlene-reskp-3Dtu6_XfqIk-unsplash.jpg"
+              class="act-preview"
+            />
+            <h4>Land Based</h4>
+            <p class="act-description">
+              Duis aute irure dolor in repre henderit in voluptate velit esse
+              cillum dolore eu fugiat nulla
+            </p></a
+          >
+          <a
+            class="btn btn-outline-light btn-sm d-grid col-4 mx-auto"
+            id="contacts-btn"
+            href="land.html"
+            role="button"
+            style="background-color: #3e2313"
+            >Find out more...</a
+          >
+        </div>
+        <div class="col frame">
+          <a href="rope.html"
+            ><img
+              src="image/rope/pexels-diego-müller-97804.jpg"
+              class="act-preview"
+            />
+            <h4>Rope Based</h4>
+            <p class="act-description">
+              Duis aute irure dolor in reprehe nderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatu
+            </p></a
+          >
+          <a
+            class="btn btn-outline-light btn-sm d-grid col-4 mx-auto"
+            id="contacts-btn"
+            href="rope.html"
+            role="button"
+            style="background-color: #3e2313"
+            >Find out more...</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------Reviews------------------ -->
+    <h2>Reviews</h2>
+
+    <div class="slideshow-container">
+      <div class="mySlides">
+        <q
+          >We had a great time and loved all the different activities that we
+          did</q
+        >
+        <p class="author">- 8th Gourock Guide</p>
+      </div>
+
+      <div class="mySlides">
+        <q>The Scouts loved every second of it, especially the powerboating</q>
+        <p class="author">- Martin Bainbridge, Scout Leader</p>
+      </div>
+
+      <div class="mySlides">
+        <q>I would definitely come back</q>
+        <p class="author">- Kelly, aged 9</p>
+      </div>
+
+      <div class="mySlides">
+        <q
+          >Thank you to all the staff who worked so hard, in awful weather, to
+          make sure that all the pupils had an amazing experience</q
+        >
+        <p class="author">- Mrs Kahn, Hillend Primary School</p>
+      </div>
+
+      <div class="mySlides">
+        <q>Five stars, it was great</q>
+        <p class="author">- Joe, aged 14</p>
+      </div>
+
+      <div class="mySlides">
+        <q
+          >I was really scared about the abseiling but the instructor Mike was
+          really encouraging and helped me do it, thanks Mike</q
+        >
+        <p class="author">- Sophie, aged 10</p>
+      </div>
+
+      <div class="mySlides">
+        <q
+          >The archery was brilliant, but not as good as axe throwing, I never
+          thought we'd be allowed to do that! I got one of my axes right in the
+          middle of the target</q
+        >
+        <p class="author">- Scott, aged 13</p>
+      </div>
+
+      <div class="mySlides">
+        <q>The kids had a ball and didn't want to leave</q>
+        <p class="author">- Mr Evans, PE teacher</p>
+      </div>
+
+      <!-- Next/prev buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <!-- Dots/bullets/indicators -->
+    <div class="dot-container">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+      <span class="dot" onclick="currentSlide(7)"></span>
+      <span class="dot" onclick="currentSlide(8)"></span>
+    </div>
+
+    <div class="d-grid gap-2 col-4 mx-auto">
+      <a
+        class="btn btn-outline-light btn-lg"
+        id="contacts-btn"
+        href="contact.html"
+        role="button"
+        style="background-color: #3e2313"
+        target="_blank"
+      >
+        Contact Us
+      </a>
+    </div>
+    <!-- ------Footer------->
+    <footer
+      id="footer"
+      class="flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+    >
+      <div class="d-flex align-items-center">
+        <span class="mb-3 mb-md-0 ink-m" style="color: #804825"
+          >© 2023 Lochquarry</span
+        >
+      </div>
+
+      <ul class="nav social-icons list-unstyled">
+        <li class="ms-3">
+          <a
+            class="w-iconbox-icon w-iconbox-link"
+            style="font-size: 22px"
+            href="https://twitter.com/login"
+            target="_blank"
+            ><i class="fas fa-brands fa-twitter"></i
+          ></a>
+        </li>
+        <li class="ms-3">
+          <a
+            class="w-iconbox-icon w-iconbox-link"
+            style="font-size: 22px"
+            href="https://www.instagram.com"
+            target="_blank"
+            ><i class="fas fa-brands fa-instagram"></i
+          ></a>
+        </li>
+        <li class="ms-3">
+          <a
+            class="w-iconbox-icon w-iconbox-link"
+            style="font-size: 22px"
+            href="https://www.facebook.com"
+            target="_blank"
+            ><i class="fas fa-brands fa-facebook"></i
+          ></a>
+        </li>
+      </ul>
+
+      <div class="d-flex me-5 align-items-center">
+        <ul>
+          <li class="footer-contacts">Call us</li>
+          <li class="footer-contacts">01475 229 8311</li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="src/slideShow.js"></script>
+    <script src="src/script.js"></script>
+  </body>
+</html>

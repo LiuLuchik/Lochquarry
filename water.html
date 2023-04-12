@@ -106,7 +106,7 @@
     <div class="row me-0 activitie">
       <div class="col d-none d-sm-block" id="imageresponsive">
         <img
-          src="image/water/pexels-patrick-case-3693081.jpg"
+          src="image/water/pexels-patrick-case-3693081_6.jpg"
           class="picture"
           alt=""
         />
@@ -156,41 +156,177 @@
     </div>
 
     <hr class="hr" />
-    <div class="d-none d-lg-block xl-block d-xxl-block">
-      <h2>Gallery</h2>
 
-      <div class="row" id="gallery">
-        <div class="column">
-          <img class="zoom" src="image/water/pexels-patrick-case-3693080.jpg" />
-          <img class="zoom" src="image/water/pexels-inchs-7989768.jpg" />
-        </div>
-
-        <div class="column">
-          <img class="zoom" src="image/water/pexels-patrick-case-3721281.jpg" />
+    <h2>Gallery</h2>
+    <!--start of different content-->
+    <section id="main-gall">
+      <div class="flex-container">
+        <div>
           <img
-            class="zoom"
-            src="image/water/pexels-roland-chanson-2851064.jpg"
+            src="image/water/pexels-patrick-case-3693080_1.jpg"
+            alt="image of food"
+            onclick="openModal();currentSlide(1)"
+            class="hover-shadow cursor-g img-gallery"
+          />
+        </div>
+        <div>
+          <img
+            src="image/water/pexels-patrick-case-3721281_2.jpg"
+            alt="image of food"
+            onclick="openModal();currentSlide(2)"
+            class="hover-shadow cursor-g img-gallery"
+          />
+        </div>
+        <div>
+          <img
+            src="image/water/pexels-nataliya-vaitkevich-5291521_3.jpg"
+            alt="image of food"
+            onclick="openModal();currentSlide(3)"
+            class="hover-shadow cursor-g img-gallery"
           />
         </div>
 
-        <div class="column">
+        <div>
           <img
-            class="zoom"
-            src="image/water/pexels-nataliya-vaitkevich-5291521.jpg"
+            src="image/water/pexels-william-mcallister-3793366_4.jpg"
+            alt="image of food"
+            onclick="openModal();currentSlide(4)"
+            class="hover-shadow cursor-g img-gallery"
           />
-          <img class="zoom" src="image/water/pexels-ron-lach-9967346.jpg" />
+        </div>
+        <div>
+          <img
+            src="image/water/pexels-inchs-7989768_5.jpg"
+            alt="image of food"
+            onclick="openModal();currentSlide(5)"
+            class="hover-shadow cursor-g img-gallery"
+          />
+        </div>
+        <div>
+          <img
+            src="image/water/pexels-patrick-case-3693081_6.jpg"
+            alt="image of food"
+            onclick="openModal();currentSlide(6)"
+            class="hover-shadow cursor-g img-gallery"
+          />
         </div>
 
-        <div class="column">
+        <div>
           <img
-            class="zoom"
-            src="image/water/pexels-william-mcallister-3793366.jpg"
+            src="image/water/pexels-ron-lach-9967346_7.jpg"
+            alt="image of food"
+            onclick="openModal();currentSlide(7)"
+            class="hover-shadow cursor-g img-gallery"
           />
-          <img class="zoom" src="image/water/pexels-erik-mclean-4582552.jpg" />
+        </div>
+        <div>
+          <img
+            src="image/water/pexels-erik-mclean-4582552_8.jpg"
+            alt="image of food"
+            onclick="openModal();currentSlide(8)"
+            class="hover-shadow cursor-g img-gallery"
+          />
+        </div>
+        <div>
+          <img
+            src="image/water/andre-morales-kalamar-zq2apZBoT8I-unsplash.jpg"
+            alt="image of food"
+            onclick="openModal();currentSlide(9)"
+            class="hover-shadow cursor-g img-gallery"
+          />
         </div>
       </div>
-    </div>
+      <!-- modal container -->
+      <div id="myModal" class="modal">
+        <span class="close-gall cursor-g" onclick="closeModal()">&times;</span>
 
+        <div class="modal-content">
+          <div class="mySlidesGall">
+            <div class="numbertext">1 / 9</div>
+            <img
+              src="image/water/pexels-patrick-case-3693080_1.jpg"
+              style="width: 100%"
+              class="img-gallery"
+            />
+          </div>
+
+          <div class="mySlidesGall">
+            <div class="numbertext">2 / 9</div>
+            <img
+              src="image/water/pexels-patrick-case-3721281_2.jpg"
+              style="width: 100%"
+              class="img-gallery"
+            />
+          </div>
+
+          <div class="mySlidesGall">
+            <div class="numbertext">3 / 9</div>
+            <img
+              src="image/water/pexels-inchs-7989768_5.jpg"
+              style="width: 100%"
+              class="img-gallery"
+            />
+          </div>
+
+          <div class="mySlidesGall">
+            <div class="numbertext">4 / 9</div>
+            <img
+              src="image/water/pexels-william-mcallister-3793366_4.jpg"
+              style="width: 100%"
+              class="img-gallery"
+            />
+          </div>
+          <div class="mySlidesGall">
+            <div class="numbertext">5 / 9</div>
+            <img
+              src="image/water/pexels-inchs-7989768_5.jpg"
+              style="width: 100%"
+              class="img-gallery"
+            />
+          </div>
+          <div class="mySlidesGall">
+            <div class="numbertext">6 / 9</div>
+            <img
+              src="image/water/pexels-patrick-case-3693081_6.jpg"
+              style="width: 100%"
+              class="img-gallery"
+            />
+          </div>
+          <div class="mySlidesGall">
+            <div class="numbertext">7 / 9</div>
+            <img
+              src="image/water/pexels-ron-lach-9967346_7.jpg"
+              style="width: 100%"
+              class="img-gallery"
+            />
+          </div>
+          <div class="mySlidesGall">
+            <div class="numbertext">8 / 9</div>
+            <img
+              src="image/water/pexels-erik-mclean-4582552_8.jpg"
+              style="width: 100%"
+              class="img-gallery"
+            />
+          </div>
+          <div class="mySlidesGall">
+            <div class="numbertext">9 / 9</div>
+            <img
+              src="image/water/andre-morales-kalamar-zq2apZBoT8I-unsplash.jpg"
+              style="width: 100%"
+              class="img-gallery"
+            />
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end of different content-->
     <div class="d-grid gap-2 col-4 mx-auto">
       <a
         class="btn btn-outline-light btn-lg"
@@ -251,5 +387,6 @@
         </ul>
       </div>
     </footer>
+    <script src="src/gallery.js"></script>
   </body>
 </html>

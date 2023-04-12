@@ -1768,4 +1768,45 @@ q {
     flex: 90%;
   }
 }
+
+@media (max-width: 414px) {
+  .flex-container > div {
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  .img-gallery {
+    position: relative;
+  }
+  .close-gall {
+    color: white;
+    position: absolute;
+    top: 70px;
+    right: 35px;
+    margin-top: 40px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .close-gall:hover,
+  .close-gall:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .mySlidesGall {
+    display: none;
+  }
+  .cursor-g {
+    cursor: pointer;
+  }
+}
 /* ------------------------------------------------ */
